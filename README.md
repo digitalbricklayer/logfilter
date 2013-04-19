@@ -1,5 +1,5 @@
 README for Apache Log Filter (logfilter)
-====================================================
+========================================
 
 INTRODUCTION
 ------------
@@ -10,14 +10,13 @@ grep, logfilter will return matching records (lines in your log files)
 to standard output.  You can use logfilter's output just like you
 would use any other UNIX style program.
 
-
 INSTALLATION
 ------------
 
 logfilter is written in C.  It can be built using regular make commands
 familiar to many UNIX programmers.
 
-First, download the source file from http://www.logfilter.org/
+First, download the source file from http://github.com/openxtra/logfilter
 
 Next, uncompress & untar the archive:
 
@@ -29,7 +28,6 @@ that directory and type 'make'.  Then, as root, type 'make install'
 Assuming everything went OK you should have a program called logfilter
 in your /usr/local/bin directory.  Type 'logfilter' to see if it's in
 your path and working correctly.
-
 
 USAGE
 -----
